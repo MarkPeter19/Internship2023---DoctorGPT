@@ -1,0 +1,29 @@
+name: doctorgpt
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  http: ^1.0.0
+  camera: ^0.10.0+4
+  flutter:
+    sdk: flutter
+  google_mlkit_text_recognition: ^0.4.0
+  permission_handler: ^10.2.0
+  chat_gpt_sdk: ^2.2.4
+  cupertino_icons: ^1.0.2
+  flutter_secure_storage: ^5.1.0
+  webview_flutter: ^3.0.4
+  webview_flutter_plus: ^0.3.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
